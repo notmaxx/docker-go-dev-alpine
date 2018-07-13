@@ -1,7 +1,7 @@
 DEV_REGISTRY := quay.io/
 IMAGE_PREFIX := workato
 SHORT_NAME := go-dev-alpine
-VERSION := latest
+VERSION := v1
 
 IMAGE := ${DEV_REGISTRY}${IMAGE_PREFIX}/${SHORT_NAME}:${VERSION}
 
